@@ -9,4 +9,4 @@ font-size: 30px;
 font-family: mono_bold;
 }
 
-@font-face { font-family: mono_bold; font-weight: normal; font-style: normal; src: url('monoBold.ttf')}
+@font-face { font-family: mono_bold; src: url('monoBold.ttf'); } 
