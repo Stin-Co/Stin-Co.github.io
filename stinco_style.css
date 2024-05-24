@@ -1,4 +1,5 @@
-body {
+body 
+{
 	background-color: black;
 }
 
@@ -8,5 +9,16 @@ margin-left: 40px;
 font-size: 30px;
 font-family: mono_bold;
 }
+
+t1
+{
+color:red; 
+font-family:
+ mono_bold;
+font-size: 150px;
+
+}
+
+
 
 @font-face { font-family: mono_bold; src: url('monoBold.ttf'); } 
