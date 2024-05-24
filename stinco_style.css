@@ -1,27 +1,41 @@
 body 
 {
-	background-color: black;
+background-color: black;
+margin:0px;
+display:block;
 }
+
 
 t1
 {
 color:red; 
 font-family: mono_bold;
 font-size: 150px;
-
+margin-left: 20px;
+margin-top: 20px;
 }
-
-
 
 h1{
 color: Red;
-margin-left: 40px;
-margin-top: 40px;
-
-font-size: 30px;
+margin-left: 20px;
+margin-top: 10px;
+font-size: 20px;
 font-family: mono_bold;
 }
 
-
+.border-b
+{
+border-right: 10px solid red;
+border-left: 10px solid red;
+border-top 1px solid red;
+background:black;
+padding:0px;
+}
+.border-a
+{
+border: 10px solid red;
+background:black;
+padding:0px;
+}
 
 @font-face { font-family: mono_bold; src: url('monoBold.ttf'); } 
