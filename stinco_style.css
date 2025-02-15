@@ -1,19 +1,18 @@
-body 
-{
+body {
     background-color: black;
     margin: 0px;
     display: block;
 }
 
-t1
-{
-    color:red; 
+div#logo {
+    color: red;
     font-family: mono_bold;
     font-size: 70px;
     margin-left: 10px;
 }
 
-h1{
+p,
+ul {
     color: Red;
     margin-left: 20px;
     margin-top: 0px;
@@ -21,18 +20,51 @@ h1{
     font-family: mono_bold;
 }
 
-.border-b
-{
+ul {
+    padding-left: 20px;
+    list-style-type: '- ';
+}
+
+.border-b {
     border-right: 10px solid red;
     border-left: 10px solid red;
     border-top: 10px solid red;
     background: black;
 }
 
-.border-a
-{
+.border-a {
     border: 10px solid red;
     background: black;
 }
 
-@font-face { font-family: mono_bold; src: url('monoBold.ttf'); } 
+hr {
+    border-top: dashed 1px red;
+    border-bottom: 0px;
+    border-width: thick;
+    width: 100%;
+    color: black;
+}
+
+a:link,
+a:visited {
+    background-color: #ff1100;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: mono_bold;
+    font-size: 20px;
+}
+
+a:hover,
+a:active {
+    background-color: red;
+    font-family: mono_bold;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: mono_bold;
+    src: url('monoBold.ttf');
+}
