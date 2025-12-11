@@ -54,7 +54,7 @@ h2{
 
 .RA-banner{
     height: 400px;
-    background-image: url('images/CCD_Proto1.png');
+    background-image: url('CCD_Proto1.png');
     background-size: cover;
     background-position-y: bottom;
     display: flex;
@@ -115,3 +115,4 @@ ul{
         padding: 50px 0px;
     }
 }
+
