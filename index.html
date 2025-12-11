@@ -1,64 +1,99 @@
 <!DOCTYPE html>
-
-<html lang="en-US">
-
+<html lang="en">
 <head>
-  <title>stinco</title>
-  <link rel="stylesheet" href="stinco_style.css">
-  <link rel="icon" href="icon.svg">
-
-  <style>
-
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>StinCo</title>
 </head>
-
 <body>
-  <div class="border-a">
-    <div id="logo">
-      <img src="stincologo.png" alt="StincoLogo" width="100" height="100"
-        style="vertical-align: middle; margin-top: 10px; margin-bottom: 5px">
-      <span style="vertical-align: middle; margin-left: -10px">stinco</span>
+    <header>
+
+        <h1>StinCo</h1>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>  
+        </nav>
+
+    </header>
+
+    <div class="stinco-banner">
+        
+        <div class="spinnerlogo">
+            <img src="images/Spinner.png" alt="stinco logo gear" class="spinner-img" width="200px" height="200px">
+        
+            <img src="images/SpinnerText.png" alt="stinco logo text" class="spinner-text" width="200px" height="200px">
+        </div>
     </div>
-    <hr>
-    <p>
-      Stinco is a small indie company producing a game named "Project 3".
-      Project 3 will feature expansive open world gameplay with immersive sim
-      elements. Stinco prides itself on the extreme realism featured in
-      Project 3's various gameplay sytems.<br>
-      <br>
-      Project 3 will provide an extremely customizable user experience,
-      allowing the player to dial in each element of the game to their liking.
-      Some things in Project 3 that will be fully modifiable include:
-    </p>
-    <ul>
-      <li>
-        Mechanically accurate guns that can be dissassembled and upgraded
-      </li>
-      <li>
-        Customizable ammunition types and materials that players can arrange
-        into magazines as they please
-      </li>
-      <li>
-        A modular armor system that allows players to design their armor
-      </li>
-      <li>Modifiable vehichles, bases, and programmable robots</li>
-    </ul>
-    <p>
-      The game world, influenced by dieselpunk and sci-fi, will take place in
-      an already established universe created by Stinco's founder. The events
-      of the story will take place in real time, and will happen whether the
-      player is there to experience them or not. The story will react to what
-      you choose to do throughout the games runtime.
-    </p>
 
-    <hr style="margin-bottom: 20px;">
+    <section class="about" id="about">
 
-    <p><a href="https://www.youtube.com/@Project3-Game-Dev/featured" target="_blank">Project 3 Youtube Channel</a>
-      <br>
-      <br>
-      <a href="https://soundcloud.com/project-3-619287933" target="_blank">Project 3 Original Soundtrack</a>
-    </p>
-  </div>
+        <div class="about-text">
+            <p>StinCo is a small, two-person indie game studio, mine exploration cohort, 
+            historical research foundation, clothing tailor, and up-and-coming
+            drone manufacturer. With each game, we aim to deliver experiences with 
+            complex gameplay systems, vast worldbuilding, and captivating soundtracks.
+            </p>
+            <br>
+            <p>Learn about our games and more below:</p>
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+
+        <div class="projectsbanner">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="cards">
+
+            <div class="project-card">
+                <img src="images/RedAeternumConcept_Circle.png " alt="RA-logo" width="100px">
+                <h3>Red Aeternum</h3>
+                <p>StinCo's premier open-world dieselpunk game.</p>
+
+                <a href="redaeternum.html"><button>Learn More</button></a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/zibco.png" alt="AMod-logo" width="100px">
+                <h3>AMod</h3>
+                <p>StinCo's secondary 2D stealth game.</p>
+                <button>Coming Soon</button>
+            </div>
+
+            <div class="project-card">
+                <img src="images/globe.png" alt="other-logo" width="100px">
+                <h3>Other Endeavors</h3>
+                <p>We also venture in mine exploration, 
+                historical research, tailoring, and drone manufacturing.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="contact" id="contact">
+
+        <h2>Contact and Socials</h2>
+
+        <ul>
+            <li>
+                <a href="stincoofficial@gmail.com">Email Us</a>
+            </li>
+
+            <li>
+                <a href="https://instagram.com">Red Aeternum Instagram</a>
+            </li>
+            
+            <li>
+                <a href="https://www.youtube.com">Red Aeternum Youtube Channel</a>
+            </li>
+        </ul>
+    </footer>
 </body>
-
 </html>

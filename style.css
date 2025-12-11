@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'monobold';
+    src: url('StinCo_MonoBold.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(110deg, #190505 0%, #650304 100%);
+    color: #feeeed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #190505;
+    color: #d71515;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    font-family: 'monobold';
+}
+
+header h1{
+    margin-left: 100px;
+}
+
+header nav{
+    margin-right: 100px;
+}
+
+a{
+    color: #d71515;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    transition: all 0.2s;
+}
+
+a:hover{
+    color:#a41111;
+}
+
+.stinco-banner{
+    height: 400px;
+    background-image: url('images/AE_MainMenu_Background_4K.png');
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinnerlogo{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.spinner-img{
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg);}
+}
+
+.spinner-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.about{
+    height: 195 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 250px;
+}
+
+.about-text{
+    color: red;
+    text-align: center;
+    text-shadow: rgba(0,0,0,.75) 3px 3px 7px;
+}
+
+.projects{
+    text-align: center; 
+    color: #d71515;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+}
+
+h2{
+    font-family: 'monobold';
+    text-shadow: rgba(0,0,0,.5) 3px 3px 7px;
+}
+
+.cards{
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.project-card{
+    padding: 35px;
+    height: 325px;
+    width: 275px;
+    background-color: #190505;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'monobold';
+}
+
+.project-card p{
+    margin-bottom: 20px;
+    font-size: .9em;
+}
+
+.project-card:nth-child(1){
+    color: #d71515;
+    border: 3px solid #a41111;
+}
+
+.project-card:nth-child(2){
+    color: lightgray;
+    border: 3px solid #686868;
+}
+
+.project-card:nth-child(3){
+    color: #d71515;
+    border: 3px solid #a41111;
+}
+
+.project-card:hover{
+    transform: translateY(-7px);
+}
+
+button{
+    width: 125px;
+    height: 50px;
+    font-family: 'monobold';
+    border: none;
+    transition: all 0.2s;
+    padding: 5px;
+}
+
+.project-card:nth-child(1) button{
+    background-color: #d71515;
+}
+
+.project-card:nth-child(1) button:hover{
+    background-color: #a41111;
+    cursor: pointer;
+}
+
+.project-card:nth-child(2) button{
+    background-color: #686868;
+}
+
+footer{
+    height: 175px;
+    background-color: #190505;
+    color: #d71515;
+    padding: 50px 100px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+@media (max-width: 900px){
+    .about{
+        padding: 50px 0px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+}
