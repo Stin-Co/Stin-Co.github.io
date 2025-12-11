@@ -49,7 +49,7 @@ a:hover{
 
 .stinco-banner{
     height: 400px;
-    background-image: url('images/AE_MainMenu_Background_4K.png');
+    background-image: url(../images/AE_MainMenu_Background_4K.png);
     background-size: cover;
     background-position-y: center;
     display: flex;
@@ -199,6 +199,7 @@ ul{
     }
 
 }
+
 
 
 
